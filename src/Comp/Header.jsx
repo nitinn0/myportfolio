@@ -12,7 +12,7 @@ const Header = () => {
         <div className="col-md-10 mx-5">
           <div className="card" style={{ padding:'57px', marginLeft:'10px', border: '1px solid #ddd', boxShadow: '0 0 10px rgba(0,0,0,0.1)' }}>
           <div style={{ textAlign: 'center', marginBottom: '20px' }}>
-          <img src={`${process.env.PUBLIC_URL}/mein.png`} style={{ width: '120px', height: '110px', borderRadius: '50%' }} />
+          <img src={`${process.env.PUBLIC_URL}/mein.jpg`} alt="Your image" style={{ width: '120px', height: '110px', borderRadius: '50%' }} />
           </div>
             <p style={{ fontSize: "3rem", fontWeight: "bold", marginBottom: '8px' }}>
               Nitin Kapoor

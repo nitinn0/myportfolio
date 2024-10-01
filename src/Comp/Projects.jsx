@@ -6,7 +6,7 @@ const Projects = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img src="/image.png" alt="Thumbnail" style={{ width: '130px', height: '120px', borderRadius: '50%' }} />
+        <img src={`${process.env.PUBLIC_URL}/image.png`} alt="Thumbnail" style={{ width: '130px', height: '120px', borderRadius: '50%' }} />
       </a>
       <h4></h4>
       <p></p>
