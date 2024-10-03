@@ -11,7 +11,7 @@ const Footer = () => {
         <a href="https://linkedin.com/in/nitin-kapoor-2a614922a/" style={styles.iconLink}>
           <FaLinkedin size={24} />
         </a>
-        <a href="#" style={styles.iconLink}>
+        <a href="https://x.com/nitinkap07" style={styles.iconLink}>
           <FaTwitter size={24} />
         </a>
       </div>

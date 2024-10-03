@@ -5,6 +5,9 @@ import Footer from './Comp/Footer';
 import Education from './Comp/Education';
 import Honors from './Comp/Honors';
 import Projects from './Comp/Projects';
+import SayHi from './Comp/SayHi'; 
+import MyBlogs from './Comp/MyBlogs';
+
 
 const App = () => {
   const [cardSection, setCardSection] = useState(null);
@@ -18,10 +21,9 @@ const App = () => {
       <div className="container-fluid my-4" style={styles.content}>
         <div className="row flex" style={{ marginLeft: '0', marginRight: '0' }}>
           <div className="col-md-6 col-sm-12" style={{ paddingLeft: '0', paddingRight: '0' }}>
-            <Header />
+            <Header onSectionClick={handleSectionClick} />
           </div>
 
-          {/* Card containing buttons and dynamic content */}
           <div
             className="col-md-6 col-sm-12 d-flex flex-column align-items-start justify-content-start"
             style={{
@@ -31,15 +33,18 @@ const App = () => {
             }}
           >
             <Buttons onSectionClick={handleSectionClick} />
-            <div style={styles.sectionContent}>
+
+          <div style={styles.sectionContent}>
               {cardSection === 'education' && <Education />}
               {cardSection === 'honors' && <Honors />}
               {cardSection === 'projects' && <Projects />}
+              {cardSection === 'myblogs' && <MyBlogs />}
+              {cardSection === 'sayHi' && <SayHi />}
             </div>
           </div>
         </div>
       </div>
-      <Footer />
+      <Footer onSectionClick={handleSectionClick}/>
     </div>
   );
 };
@@ -54,8 +59,8 @@ const styles = {
     flex: 1,
   },
   sectionContent: {
-    marginTop: '20px', // Space between buttons and content
-    width: '100%', // Ensure it takes up the full card width
+    marginTop: '20px', 
+    width: '100%', 
   },
 };
 

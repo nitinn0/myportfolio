@@ -6,14 +6,15 @@ const Education = () => {
     <div>
       <div style={styles.educationCard}>
         <h4>Secondary Education</h4>
-        <p>Homerton Grammar School, Faridabad</p>
-        <p>August 2020 - July 2022</p>
+        <p style={{marginBottom:'10px'}}>Homerton Grammar School, Faridabad</p>
+        <p style={{fontSize:'15px'}}>August 2020 - July 2022</p>
+        <p><span style={{fontSize:'17px'}}>GRADE</span>: A</p>
       </div>
 
       <div style={styles.educationCard}>
         <h4>Bachelor of Computer Application</h4>
-        <p>Jb Knowledge Park, Faridabad (affiliated to MDU)</p>
-        <p>Aug 2022 - July 2025 (Expected)</p>
+        <p style={{marginBottom:'10px'}}>Jb Knowledge Park, Faridabad (affiliated to MDU)</p>
+        <p style={{fontSize:'15px'}}>Aug 2022 - July 2025 (Expected)</p>
       </div>
 
       </div>

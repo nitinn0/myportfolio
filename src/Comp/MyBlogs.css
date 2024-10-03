@@ -1,0 +1,27 @@
+.myblogsCard {
+    background-color: #fff;
+    padding: 20px;
+    margin: 9px;
+    border-radius: 8px;
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .button {
+    background-color: black;
+    color: white;
+    margin-top: 14px;
+    font-size: medium;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px; /* Fully rounded button */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow */
+ /* Make text bold */
+  }
+  
+  .button:hover {
+    background-color: #f1f1f1;
+    color: black; /* Darker shade on hover */
+  }
+  

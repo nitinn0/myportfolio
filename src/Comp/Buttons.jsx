@@ -14,24 +14,26 @@ export const Buttons = ({ onSectionClick }) => {
   return (
     <>
     <div className='d-flex my-4 mx-4' style={{ position: 'relative', bottom: '13px', right: '20px' }}>
-      <CustomFab variant="extended" size="medium" sx={{ mx: 4 }} onClick={() => onSectionClick('experience')}>
-        Experience
-      </CustomFab>
       <CustomFab variant="extended" size="medium" sx={{ mx: 5 }} onClick={() => onSectionClick('projects')}>
         Projects
       </CustomFab>
       <CustomFab variant="extended" size="medium" sx={{ mx: 5 }} onClick={() => onSectionClick('education')}>
         Education
       </CustomFab>
-      <CustomFab variant="extended" size="medium" sx={{ mx: 5 }} onClick={() => onSectionClick('honors')}>
-        Honors
+      <CustomFab variant="extended" size="medium" sx={{ mx: 4 }} onClick={() => onSectionClick('myblogs')}>
+      Blogs
       </CustomFab>
+      <CustomFab variant="extended" size="medium" sx={{ mx: 5 }} onClick={() => onSectionClick('honors')}>
+  Honors <span role="img" aria-label="trophy"> 🏆</span>
+</CustomFab>
+
     </div>
     <hr style={{ 
-        margin: '0', 
-        border: '1px solid #ccc', // Change color if needed
-        width: '100%', // Ensure it spans the full width
-        height: '0', // Ensures no extra height is added
+        margin: '0',
+        marginBottom:'15px',
+        border: '1px solid #ccc', 
+        width: '100%', 
+        height: '0', 
       }} />
     </>
   );
