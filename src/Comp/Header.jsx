@@ -10,7 +10,7 @@ const Header = ({ onSectionClick }) => {
         <div className="col-md-10 mx-5">
           <div className="card" style={{ padding: '57px', marginLeft: '10px', border: '1px solid #ddd', boxShadow: '0 0 10px rgba(0,0,0,0.1)' }}>
             <div style={{ textAlign: 'center', marginBottom: '20px' }}>
-              <img src={`${process.env.PUBLIC_URL}/mein.jpg`} alt="Your image" style={{ width: '120px', height: '110px', borderRadius: '50%' }} />
+              <img src={`${process.env.PUBLIC_URL}/mein1.jpg`} alt="Your image" style={{ width: '120px', height: '118px', borderRadius: '100%' }} />
             </div>
             <p style={{ fontSize: "3rem", fontWeight: "bold", marginBottom: '5px' }}>
               Nitin Kapoor
@@ -34,7 +34,7 @@ const Header = ({ onSectionClick }) => {
     I am a passionate Frontend Developer in my final year of pursuing a 
     Bachelor of Computer Applications. Specializing in crafting 
     visually appealing and user-friendly web applications with 
-    ReactJS and Material-UI, I am eager to secure an internship 
+    ReactJS and Material-UI. Some of my likings are playing football and writing blogs about any topic. I am eager to secure an internship 
     to refine my skills further and contribute to exciting 
     projects in the tech industry.
   </p>
